@@ -1,0 +1,74 @@
+Homework
+
+
+
+
+1. Mention 3 Things that you use often
+	-> Google Maps
+	-> Google ( Search Engine )
+	-> Waze
+
+
+
+
+
+2. Following Terms
+
+A. Agent
+	-> Sebuah Entity/Object Yang Berada dan Mengenal Lingkungannya dan dapa bertindak pada Lingkungan Tersebut.
+
+B. State Space
+	-> Set of All State yang bisa kita dapetan dari initial State ( Possible Result )
+
+C. Actions
+	-> Pilihan Yang Dapat Kita Buat Pada Sebuah State.
+	-> Actions(s) return Set Of Actions yang bisa dilakukan
+
+D. Transition Model
+	-> Perubahan Dari Sebuah State yang diakibatkan Oleh Actions Yang kita buat
+	-> Hasil Dari Actions
+	->Result(s, a) Return Set Of Transition Model
+
+E. Goal Test
+	-> Apakah Sebuah State sudah Sesuai? Atau Hasil Akhir dari Suatu State.
+
+F. Path Cost
+	-> Jumlah Actions Yang Terjadi Untuk mencapai Goal Test.
+
+G. optimal Solution
+	-> Path Cost Solution Yang Paling Sedikit Atau Optimal
+
+
+
+
+
+
+
+
+
+3. Between Stack And Queue
+
+->	STACK ( Last In First Out )
+	Frontier(Stack): 
+	[A, B, C, D]
+	Dimana D Node Yang Terakhir Masuk
+	Dan D adalah Node Yang Pertama kali Keluar
+
+->	Queue ( First In First Out )
+	Frontier(Queue):
+	[A, B, C, D]
+	Dimana A Node Yang Masuk Pertama
+	Dan A adalah Node Yang Pertama kali keluar
+  
+  
+  
+  
+  
+  
+4. Pseudo Code Of BFS And DFS
+
+->	Depth First Search ( Stack / LIFO )
+	-> Frontier As A Stack
+
+->	Breadth First Search ( Queue / FIFO )
+	-> Frontier As A Queue
